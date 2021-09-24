@@ -53,6 +53,10 @@ yarn add typescript -D
 
 Após adicionar o Typescript, vamos iniciar o mesmo, para que seja gerado um arquivo de configuração chamado tsconfig.json
 
+```json
+yarn tsc --init
+```
+
 Neste arquivo, vamos habilitar as seguintes opções (basta remover o comentário da frente e checar o valor ou copiar o JSON abaixo):
 
 ```json
@@ -96,7 +100,7 @@ yarn add eslint -D
 Para iniciarmos a configuração vamos executar o seguinte comando:
 
 ```json
-yarn estlint --init
+yarn eslint --init
 ```
 
 Ao executar este comando, vamos responder algumas questões para a configuração do ESLint no projeto. Essas são as configurações que estou utilizando no momento:
